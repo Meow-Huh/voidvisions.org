@@ -1,0 +1,35 @@
+body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to right, rgb(59, 7, 7), rgb(151, 13, 13), rgb(110, 17, 68), rgb(76, 9, 85), rgb(14, 92, 122))
+    }
+    p{
+        color: white;
+    }
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    img{
+        margin: 20px;
+    }
+
+
+     .container {
+        padding: 20px;
+    }
+        div {
+            margin: 2%;
+            justify-content: center;
+            border-radius: 5%;
+        }
+        div>div>div{
+            border: 5px solid rgb(165, 2, 2);
+            background-color: rgb(0, 0, 0);
+        }
+        @media screen and (min-width: 768px) {
+            .container {
+                display: flex;
+                flex-direction: row;
+            }
+        }
